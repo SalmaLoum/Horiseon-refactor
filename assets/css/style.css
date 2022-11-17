@@ -1,9 +1,11 @@
+/* Universal Selector */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* Element Selectors */
 body {
   background-color: #d9dcd6;
 }
@@ -30,12 +32,13 @@ h2 {
   font-size: 36px;
 }
 
-h3 {
+h3,
+h4 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-header div {
+nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -73,6 +76,7 @@ footer {
   text-align: center;
 }
 
+/* Class Selectors */
 .hero {
   height: 800px;
   width: 100%;
@@ -123,20 +127,21 @@ footer {
   color: #ffffff;
 }
 
-/* changed footer top font to h3
+/* 
 
+- Changed footer top font to h4, and created h3, h4 sementic elements
 footer h2 {
   font-size: 20px;
 }
 
-- Combined this with an img tag
+- Combined this into an img tag
 .benefit-lead img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-- combined these into horizontal-box class above.
+- combined these three into horizontal-box class above.
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -153,7 +158,6 @@ footer h2 {
   background-color: #0072bb;
   color: #ffffff;
 }
-
 .social-media-marketing {
   margin-bottom: 20px;
   padding: 50px;
@@ -163,41 +167,44 @@ footer h2 {
   color: #ffffff;
 }
 
-- Consolidated these into ul li sementic elements above.
+- Changed it to sementic element nav above.
+header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+- Consolidated these two into ul li sementic elements above.
 header div ul {
   list-style-type: none;
 }
-
 header div ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
-- Combined these into an img sementic tag above.
+- Combined these three into an img sementic tag above.
 .search-engine-optimization img {
   max-height: 200px;
 }
-
 .online-reputation-management img {
   max-height: 200px;
 }
-
 .social-media-marketing img {
   max-height: 200px;
 }
 
-
-- Combined these into h2 sementic tag above.
+- Combined these three into h2 sementic tag above.
 .search-engine-optimization h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
 .online-reputation-management h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
 .social-media-marketing h2 {
   margin-bottom: 20px;
   font-size: 36px;
